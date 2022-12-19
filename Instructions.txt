@@ -9,7 +9,7 @@ Phase 2: Create 'TestDynamoDB' Lambda function with Layers
 Phase 2: Create 'TestDynamoDB' Lambda function with Layers
 
 Step 1: Create 'fastapi' Layer (python.zip)
-Step 2: Create ‘fastapi_lambda_dynamodb’ function
+Step 2: Create ‘TestDynamoDB’ function
 Step 3. Add  'fastapi' Layer as Base Layer
 Step 4: Create main.py function
 Step 5: Modify Execution Role --> Add AWSLambdaDynamoDBExecutionRole Permission
