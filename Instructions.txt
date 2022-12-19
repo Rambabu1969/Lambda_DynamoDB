@@ -1,0 +1,16 @@
+Instructions:
+
+Phase 1: Create 'mru-students' table in DynamoDB
+Phase 2: Create 'TestDynamoDB' Lambda function with Layers
+
+
+----
+
+Phase 2: Create 'TestDynamoDB' Lambda function with Layers
+
+Step 1: Login to AWS Management Console --> Go to Lambda Dashboard
+Step 2: Add 'fastapi' layer (python.zip)
+Step 3: Create main.py function
+Step 4: Modify Execution Role --> Add AWSLambdaDynamoDBExecutionRole Permission
+Step 4: Browse Function URL
+
